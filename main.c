@@ -64,7 +64,7 @@ int main()
             printf("\n");
             continue;
         }
-       
+       if (ans == "\n") break;
     
     }
     deleteGraph_cmd(head);
